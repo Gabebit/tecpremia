@@ -1,52 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Catálogo Star Wars</title>
-   
-    
-    <link href="css/sticky-footer.css" rel="stylesheet">
+
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/navbar-top-fixed.css" rel="stylesheet">
+    <link href="css/sticky-footer.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-md  fixed-top bg-dark">
+      <a class="navbar-brand " href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+       
+       <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Explorar conteúdo
+              </a>
+          
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="Naves.html">Naves</a>
+            <a class="dropdown-item" href="Pilotos.html">Pilotos</a>
+  
+          </div>
+          
+       </ul>
+          
+         
+      </div>
+  </nav>
+ <main role="main" class="container">
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/pilotos.png" alt="Primeiro Slide">
+      <div class="carousel-caption d-none d-md-block">
+
+   
+    <p><a class="btn btn-lg btn-secondary" href="Pilotos.html" role="button">Pilotos</a></p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/nave.jpg" alt="Segundo Slide">
+      <div class="carousel-caption d-none d-md-block">
+    <p><a class="btn btn-lg btn-secondary" href="Naves.html" role="button">Naves</a></p>
+  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
 
 
   
-</head>
-<body> 
-  <nav class="navbar navbar-dark navbar-expand-md  fixed-top bg-dark">
-    <a class="navbar-brand " href="index.html">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-     
-     <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Explorar conteúdo
-            </a>
-        
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="Naves.html">Naves</a>
-          <a class="dropdown-item" href="Pilotos.html">Pilotos</a>
+    </main>
 
-        </div>
-        
-     </ul>
-        
-       
-    </div>
-</nav>
-
-
-    <script src="js/jquery-3.5.js"></script>
-    <script src="js/bootstrap.js"></script>
- 
-    </body>
-    <footer class="footer">
+  <footer class="footer">
       <div class= "container">
           <span class="text-muted">www.linkedin.com/in/gabrielbitelbrun; gabriel162@gmail.com; 47 992460336</span>
       </div>
   </footer>
-    
+
+    <script src="js/jquery-3.5.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
 </html>
